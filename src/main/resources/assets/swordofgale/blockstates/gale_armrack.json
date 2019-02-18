@@ -1,0 +1,22 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "normal": {"model": "swordofgale:gale_armrack"},
+    "facing=up": {"model": "swordofgale:gale_armrack"},
+    "facing=east": {"model": "swordofgale:gale_armrack",
+      "x": 90
+    },
+    "facing=south": {"model": "swordofgale:gale_armrack",
+      "x": 90,
+      "y": 90
+    },
+    "facing=west": {"model": "swordofgale:gale_armrack",
+      "x": 90,
+      "y": 180
+    },
+    "facing=north": {"model": "swordofgale:gale_armrack",
+      "x": 90,
+      "y": 270
+    }
+  }
+}

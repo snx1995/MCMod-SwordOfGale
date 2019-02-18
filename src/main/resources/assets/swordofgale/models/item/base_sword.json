@@ -1,0 +1,71 @@
+{
+  "textures": {
+    "base_sword": "swordofgale:blocks/gale_stone_texture"
+  },
+  "elements": [
+    {
+      "from": [6, 0, 6],
+      "to": [10, 8, 10],
+      "faces": {
+        "up": {"texture": "#base_sword"},
+        "down": {"texture": "#base_sword"},
+        "west": {"texture": "#base_sword"},
+        "east": {"texture": "#base_sword"},
+        "north": {"texture": "#base_sword"},
+        "south": {"texture": "#base_sword"}
+      }
+    },
+    {
+      "from": [5, 8, 5],
+      "to": [11, 10, 11],
+      "rotate": {
+        "axis": "z",
+        "angle": 45
+      },
+      "faces": {
+        "up": {"texture": "#base_sword"},
+        "down": {"texture": "#base_sword"},
+        "west": {"texture": "#base_sword"},
+        "east": {"texture": "#base_sword"},
+        "north": {"texture": "#base_sword"},
+        "south": {"texture": "#base_sword"}
+      }
+    },
+    {
+      "from": [6, 10, 7],
+      "to": [10, 30, 9],
+      "faces": {
+        "up": {"texture": "#base_sword"},
+        "down": {"texture": "#base_sword"},
+        "west": {"texture": "#base_sword"},
+        "east": {"texture": "#base_sword"},
+        "north": {"texture": "#base_sword"},
+        "south": {"texture": "#base_sword"}
+      }
+    },
+    {
+      "from": [7, 30 ,7],
+      "to": [10, 31, 9],
+      "faces": {
+        "up": {"texture": "#base_sword"},
+        "down": {"texture": "#base_sword"},
+        "west": {"texture": "#base_sword"},
+        "east": {"texture": "#base_sword"},
+        "north": {"texture": "#base_sword"},
+        "south": {"texture": "#base_sword"}
+      }
+    },
+    {
+      "from": [8, 31, 7],
+      "to": [10, 32, 9],
+      "faces": {
+        "up": {"texture": "#base_sword"},
+        "down": {"texture": "#base_sword"},
+        "west": {"texture": "#base_sword"},
+        "east": {"texture": "#base_sword"},
+        "north": {"texture": "#base_sword"},
+        "south": {"texture": "#base_sword"}
+      }
+    }
+  ]
+}

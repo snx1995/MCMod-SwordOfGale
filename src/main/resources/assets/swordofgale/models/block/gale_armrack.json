@@ -1,0 +1,43 @@
+{
+  "textures": {
+    "gale_armrack": "swordofgale:blocks/gale_armrack/gale_armrack"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 2, 16],
+      "faces": {
+        "up": {"texture": "#gale_armrack"},
+        "down": {"texture": "#gale_armrack"},
+        "west": {"texture": "#gale_armrack"},
+        "east": {"texture": "#gale_armrack"},
+        "north": {"texture": "#gale_armrack"},
+        "south": {"texture": "#gale_armrack"}
+      }
+    },
+    {
+      "from": [2, 2, 7],
+      "to": [4, 8, 9],
+      "faces": {
+        "up": {"texture": "#gale_armrack"},
+        "down": {"texture": "#gale_armrack"},
+        "west": {"texture": "#gale_armrack"},
+        "east": {"texture": "#gale_armrack"},
+        "north": {"texture": "#gale_armrack"},
+        "south": {"texture": "#gale_armrack"}
+      }
+    },
+    {
+      "from": [12, 2, 7],
+      "to": [14, 8, 9],
+      "faces": {
+        "up": {"texture": "#gale_armrack"},
+        "down": {"texture": "#gale_armrack"},
+        "west": {"texture": "#gale_armrack"},
+        "east": {"texture": "#gale_armrack"},
+        "north": {"texture": "#gale_armrack"},
+        "south": {"texture": "#gale_armrack"}
+      }
+    }
+  ]
+}
