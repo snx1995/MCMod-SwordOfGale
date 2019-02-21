@@ -1,6 +1,7 @@
 {
   "textures": {
-    "base_sword": "swordofgale:blocks/gale_stone_texture"
+    "base_sword": "swordofgale:wood",
+    "layer0": "swordofgale:items/base_sword"
   },
   "elements": [
     {

@@ -1,0 +1,138 @@
+{
+  "textures": {
+    "sword_gale": "swordofgale:blocks/sword_gale",
+    "particle": "swordofgale:blocks/sword_gale"
+  },
+  "display": {
+    "thirdperson": {
+      "rotation": [10, -45, 170],
+      "translation": [0, 1.5, -2.75],
+      "scale": [0.375, 0.18, 0.375]
+    }
+  },
+  "elements": [
+    {
+      "from": [7, 0, 7],
+      "to": [9, 4, 9],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": -45
+      },
+      "faces": {
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    },
+    {
+      "from": [6, 4, 6],
+      "to": [10, 8, 10],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "down": {"texture":  "#sword_gale"},
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    },
+    {
+      "from": [5, 8, 5],
+      "to": [11, 12, 11],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": 0
+      },
+      "faces": {
+        "down": {"texture":  "#sword_gale"},
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    },
+    {
+      "from": [4, 12, 4],
+      "to": [12, 16, 12],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": 22.5
+      },
+      "faces": {
+        "down": {"texture":  "#sword_gale"},
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    },
+    {
+      "from": [3, 16, 3],
+      "to": [13, 20, 13],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": 45
+      },
+      "faces": {
+        "down": {"texture":  "#sword_gale"},
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    },
+    {
+      "from": [2, 20, 2],
+      "to": [14, 24, 14],
+      "faces": {
+        "down": {"texture":  "#sword_gale"},
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    },
+    {
+      "from": [1, 24, 1],
+      "to": [15, 28, 15],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": -45
+      },
+      "faces": {
+        "down": {"texture":  "#sword_gale"},
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    },
+    {
+      "from": [0, 28, 0],
+      "to": [16, 32, 16],
+      "rotation": {
+        "origin": [8, 8, 8],
+        "axis": "y",
+        "angle": -22.5
+      },
+      "faces": {
+        "up": {"texture":  "#sword_gale"},
+        "down": {"texture":  "#sword_gale"},
+        "west": {"texture":  "#sword_gale"},
+        "east": {"texture":  "#sword_gale"},
+        "north": {"texture":  "#sword_gale"},
+        "south": {"texture":  "#sword_gale"}
+      }
+    }
+  ]
+}

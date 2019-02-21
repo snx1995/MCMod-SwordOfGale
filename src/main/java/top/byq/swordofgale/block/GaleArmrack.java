@@ -31,7 +31,7 @@ public class GaleArmrack extends GaleBlock {
         super(Material.WOOD, NAME, CreativeTabs.DECORATIONS);
         setLightLevel(0.8F);
 
-        setDefaultState(this.getBlockState().getBaseState().withProperty(facing, EnumFacing.NORTH));
+//        setDefaultState(this.getBlockState().getBaseState().withProperty(facing, EnumFacing.NORTH));
     }
 
     @Override
@@ -45,8 +45,8 @@ public class GaleArmrack extends GaleBlock {
         return false;
     }
 
-    @Override
-    protected BlockStateContainer createBlockState() {
-        return new BlockStateContainer(this, facing);
-    }
+//    @Override
+//    protected BlockStateContainer createBlockState() {
+//        return new BlockStateContainer(this, facing);
+//    }
 }
