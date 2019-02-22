@@ -28,7 +28,7 @@ public class GaleArmrack extends GaleBlock {
     public static final GaleArmrack instance = new GaleArmrack();
 
     public GaleArmrack() {
-        super(Material.WOOD, NAME, CreativeTabs.DECORATIONS);
+        super(Material.WOOD, NAME, SOGMain.GALE_TAB);
         setLightLevel(0.8F);
 
 //        setDefaultState(this.getBlockState().getBaseState().withProperty(facing, EnumFacing.NORTH));

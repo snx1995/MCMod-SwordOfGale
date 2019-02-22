@@ -1,23 +1,26 @@
 package top.byq.swordofgale.item;
 
-import net.minecraft.block.Block;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemBlock;
+import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
-import top.byq.swordofgale.block.GaleArmrack;
-import top.byq.swordofgale.block.GaleStoneBlock;
-import top.byq.swordofgale.block.SwordGale;
+import top.byq.swordofgale.SOGMain;
 
 public class ItemRegister {
+    private static final Item[] items = new Item[]{
+            new BaseGaleSword()
+    };
 
     @SubscribeEvent
     public void reigsterItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(
-                BaseGaleSword.instance,
-                GaleArmrack.instance.getItemBlock(),
-                GaleStoneBlock.instance.getItemBlock(),
-                SwordGale.instance.getItemBlock()
-        );
+        event.getRegistry().registerAll(items);
+    }
+
+    @SubscribeEvent
+    public void registerModels(ModelRegistryEvent event) {
+        for (Item item : items) {
+            SOGMain.proxy.registerModel(item, 0, "inventory");
+        }
     }
 }

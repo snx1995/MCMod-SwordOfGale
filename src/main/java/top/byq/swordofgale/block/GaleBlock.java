@@ -26,9 +26,6 @@ public class GaleBlock extends Block {
         setCreativeTab(tab);
         this.itemBlock = new ItemBlock(this);
         itemBlock.setRegistryName(SOGMain.MODID, name);
-
-        ModelResourceLocation modelResourceLocation = new ModelResourceLocation(SOGMain.MODID + ":" + name, "inventory");
-        ModelLoader.setCustomModelResourceLocation(itemBlock, 0, modelResourceLocation);
     }
 
     public String getName() {
@@ -37,5 +34,9 @@ public class GaleBlock extends Block {
 
     public ItemBlock getItemBlock() {
         return itemBlock;
+    }
+
+    public void registerModel() {
+        SOGMain.proxy.registerModel(itemBlock, 0, "inventory");
     }
 }

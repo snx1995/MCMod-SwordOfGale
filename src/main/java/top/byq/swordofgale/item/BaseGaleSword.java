@@ -13,7 +13,7 @@ public class BaseGaleSword extends ItemSword {
 
     public BaseGaleSword() {
         super(ToolMaterial.DIAMOND);
-        setCreativeTab(CreativeTabs.COMBAT);
+        setCreativeTab(SOGMain.GALE_TAB);
         setRegistryName(SOGMain.MODID, NAME);
         setUnlocalizedName(NAME);
 

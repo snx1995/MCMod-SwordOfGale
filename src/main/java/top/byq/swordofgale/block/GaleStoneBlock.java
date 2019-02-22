@@ -26,7 +26,7 @@ public class GaleStoneBlock extends GaleBlock {
     private static final String NAME = "gale_stone";
 
     public GaleStoneBlock() {
-        super(Material.IRON, NAME, CreativeTabs.DECORATIONS);
+        super(Material.IRON, NAME, SOGMain.GALE_TAB);
         setLightLevel(0.6F);
     }
 
